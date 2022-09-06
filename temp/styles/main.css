@@ -26,8 +26,11 @@ header h2 {
 header img {
 	float: left;
 }
-.shadow {
+#shadow1 {
 	text-shadow: 2px 2px 2px var(--global-color-1);
+}
+#shadow2 {
+	text-shadow: -1px -1px -1px orange;
 }
 /* the styles for the main content */
 main {
@@ -48,5 +51,5 @@ main h3 {
 /* the styles for the footer */
 footer p {
 	text-align: center;
-	font-size: 80%;
+	font-size: 100%;
 }
