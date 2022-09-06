@@ -9,6 +9,7 @@ body {
     font-size: 100%;
     margin-left: 10px;
 }
+
 a:focus, a:hover {
 	font-style: italic;
 }
@@ -47,9 +48,12 @@ main h3 {
 	margin-top: 30px;
 	font-size: 105%;
 }
+.list {
+	font: italic Arial, Sans-serif;
+}
 
 /* the styles for the footer */
 footer p {
 	text-align: center;
-	font-size: 100%;
+	font-size: 90%;
 }
