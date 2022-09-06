@@ -33,7 +33,7 @@ header img {
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
 #shadow2 {
-	text-shadow: -2px -2px -2px orange;
+	text-shadow: -4px -4px -4px orange;
 }
 /* the styles for the main content */
 main {
