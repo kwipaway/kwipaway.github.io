@@ -29,10 +29,10 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
-/* the styles for the main content */
+/* the styles for the main content 
 main {
 	clear: left;
-}
+}*/
 main h1 {
 	font-size: 150%;
 }
