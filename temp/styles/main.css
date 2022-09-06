@@ -50,11 +50,11 @@ main h3 {
 	font-size: 105%;
 }
 .list {
-	font: italic Arial, Sans-serif;
+	line-height: 0.5em;
 }
 
 /* the styles for the footer */
 footer p {
 	text-align: center;
-	font-size: 90%;
+	font-size: 80%;
 }
