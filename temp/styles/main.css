@@ -19,13 +19,8 @@ header h1 {
 	text-indent: 30px;
 }
 header h2 {
-	font-size: 150%;
-	color: var(--global-color-1);
-	text-indent: 30px;
-}
-header h3 {
 	font-size: 130%;
-	font-style: italic;
+	color: var(--global-color-1);
 	text-indent: 30px;
 }
 header img {
