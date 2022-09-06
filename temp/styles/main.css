@@ -31,7 +31,7 @@ header img {
 }
 /* the styles for the main content */
 main {
-	clear: center;
+	clear: right;
 }
 main h1 {
 	font-size: 150%;
