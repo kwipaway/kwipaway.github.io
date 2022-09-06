@@ -13,8 +13,13 @@ a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
-header h2 {
+header h1 {
 	font-size: 175%;
+	color: var(--global-color-1);
+	text-indent: 30px;
+}
+header h2 {
+	font-size: 150%;
 	color: var(--global-color-1);
 	text-indent: 30px;
 }
