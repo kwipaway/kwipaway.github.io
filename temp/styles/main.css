@@ -1,7 +1,7 @@
-/* custom property */
+/* custom property 
 :root {
 	--global-color-1: #800000;
-}
+}*/
 
 /* the styles for the elements */
 body {
@@ -17,39 +17,31 @@ a:focus, a:hover {
 /* the styles for the header */
 header h1 {
 	font-size: 175%;
-	color: var(--global-color-1);
+	color: maroon;
 	text-indent: 30px;
 }
 header h2 {
 	font-size: 130%;
-	color: var(--global-color-1);
+	color: #800000;
+	/*color: var(--global-color-1);*/
 	text-indent: 30px;
 }
 header img {
 	float: left;
 }
-#shadow1 {
-	text-shadow: 2px 2px 2px var(--global-color-1);
-}
-#shadow2 {
-	text-shadow: -2px -2px 1px rgb(216, 26, 216);
+.shadow {
+	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
+	text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
 /* the styles for the main content */
 main {
 	clear: left;
 }
-main h1 {
-	font-size: 150%;
-}
-main h2 {
-	color: var(--global-color-1);
-	font-size: 130%;
-}
 main h3 {
-	margin-top: 30px;
+	margin-top: 3em;
 	font-size: 105%;
 }
-.list {
+#list {
 	line-height: 1.5em;
 }
 
