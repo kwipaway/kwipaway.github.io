@@ -12,7 +12,7 @@ body {
 
 a:focus, a:hover {
 	font-style: italic;
-	color: orangered
+	color: orangered;
 }
 /* the styles for the header */
 header h1 {
