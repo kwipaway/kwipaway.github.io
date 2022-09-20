@@ -7,7 +7,13 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin-left: 10px;
+	width: 700px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 1.5em;
+	border: 1px solid black;
+	border-radius: 25px;
+	box-shadow: 5px 5px 0 0;
 }
 
 a:focus, a:hover {
@@ -40,15 +46,20 @@ main {
 main h3 {
 	margin: 3em;
 	font-size: 105%;
+	border: 5px dashed blue;
+	border-radius: 20px;
+	box-shadow: 3px 3px 4px 4px red;
+	padding: 1em;
 }
 #list {
 	line-height: 1.5em;
 }
 div.contact{
+	margin: 
 	border: 5px dashed blue;
 	border-radius: 20px;
 	box-shadow: 3px 3px 4px 4px red;
-	padding: 1.5em;
+	padding: 1em;
 }
 
 /* the styles for the footer */
