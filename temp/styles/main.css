@@ -47,7 +47,7 @@ main h3 {
 div.contact{
 	border: 5px dashed blue;
 	border-radius: 20px;
-	box-shadow: 3px 3px 4px red;
+	box-shadow: 3px 3px 4px 4px red;
 	padding: 1.5em;
 }
 
