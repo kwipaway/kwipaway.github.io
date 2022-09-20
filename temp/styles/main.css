@@ -38,11 +38,17 @@ main {
 	clear: left;
 }
 main h3 {
-	margin-top: 3em;
+	margin: 3em;
 	font-size: 105%;
 }
 #list {
 	line-height: 1.5em;
+}
+div.contact{
+	border: 5px dashed blue;
+	border-radius: 20px;
+	box-shadow: 3px 3px 4px red;
+	padding: 1.5em;
 }
 
 /* the styles for the footer */
