@@ -38,6 +38,7 @@ header h2 {
 }
 header img {
 	float: left;
+	margin-left: 2em;
 }
 .shadow {
 	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
