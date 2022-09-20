@@ -62,7 +62,7 @@ main nav {
 	border: 5px dashed blue;
 	border-radius: 20px;
 	box-shadow: 3px 3px 4px 4px red;
-	padding: 1em;
+	padding: 0.5em;
 }
 #list {
 	line-height: 1.5em;
