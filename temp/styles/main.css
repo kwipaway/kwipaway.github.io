@@ -68,7 +68,7 @@ main nav {
 	line-height: 1.5em;
 }
 div.contact{
-	margin: 1.5em 2em 0.5em 2em;
+	margin: 1.5em 2em 0 2em;
 	border: 5px dotted blue;
 	border-radius: 20px;
 	box-shadow: 3px 3px 4px 4px red;
