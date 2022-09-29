@@ -40,9 +40,14 @@ header h2 {
 	color: #800000;
 	text-indent: 30px;
 }
-img {
+header img {
 	float: left;
 	margin-left: 2em;
+}
+article img {
+    float: left;
+    margin: 1em 2em 0 2em;
+    
 }
 .shadow {
 	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
