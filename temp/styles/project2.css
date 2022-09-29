@@ -54,8 +54,7 @@ header img {
 article {
     width: 600px;
     column-count: 2;
-    column-rule: 1px solid black;
-    
+    column-rule: 1px solid black;    
 }
 article h3{
     column-span: all;
@@ -63,8 +62,7 @@ article h3{
 
 article img {
     float: left;
-    margin: 1em 2em 0 2em;
-    
+    margin: .5em 2em 2em 2em;    
 }
 
 #list {
