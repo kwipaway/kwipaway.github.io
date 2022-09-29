@@ -59,7 +59,7 @@ article img {
 	margin-right: 1em;     
 }
 article p::first-letter {
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: bold;
 	font-style: italic;
 	color: lightgreen;
@@ -67,7 +67,7 @@ article p::first-letter {
 aside{
     width: 20%;
     float: right;
-	padding: 0 1em 1em;
+	padding: 0.2em 1em 1em;
     background-color: #ffebc6;
 }
 footer {
