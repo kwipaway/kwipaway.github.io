@@ -49,7 +49,6 @@ article {
     column-count: 2;
     column-rule: 2px dotted maroon;    
     column-gap: 2em;
-	/*margin-top: 1em;*/
 	margin-left: 2em;
 }
 article h3{
@@ -68,8 +67,7 @@ article p::first-letter {
 aside{
     width: 20%;
     float: right;
-	margin-top: 1em;
-	padding: 20px;
+	padding: 1em;
     background-color: #ffebc6;
 }
 footer {
