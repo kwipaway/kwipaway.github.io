@@ -75,6 +75,7 @@ footer p.copyright {
 	font-size: 80%;
 }
 p.fixed {
+	width: auto;
 	position: fixed;
 	bottom: 0;
 	right: 0;
