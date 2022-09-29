@@ -62,7 +62,8 @@ article img {
 aside{
     width: 20%;
     float: right;
-	padding: 20px;
+	margin-top: 1em;
+	/*padding: 20px;*/
     background-color: #ffebc6;
 }
 footer {
