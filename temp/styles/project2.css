@@ -2,7 +2,7 @@
 :root {
 	--global-color-1: #800000;
 }*/
-html{
+html {
 	background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
 body {
@@ -41,7 +41,6 @@ header img {
 	margin-left: 2em;
 }
 .shadow {
-	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
 	text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
 article {
@@ -58,7 +57,9 @@ article h3{
 }
 article img {
     float: left;
+	margin: 0 1em; 
     margin-left: 2em;    
+	margin-right: 
 }
 aside{
     width: 20%;
