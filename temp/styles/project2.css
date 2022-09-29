@@ -19,7 +19,10 @@ body {
 	border-radius: 25px;
 	box-shadow: 5px 5px 0 0;
 }
-
+article, aside {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
 a:focus, a:hover {
 	font-style: italic;
 	color: orangered;
