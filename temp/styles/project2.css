@@ -16,10 +16,6 @@ body {
 	border-radius: 25px;
 	box-shadow: 5px 5px 0 0;
 }
-article, aside {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 a:focus, a:hover {
 	font-style: italic;
 	color: orangered;
@@ -50,10 +46,12 @@ header img {
 }
 article {
     width: 60%;
+	float: left;
     column-count: 2;
     column-rule: 1px solid black;    
-    column-gap: 1em;
-	float: left;
+    column-gap: 1.3em;
+	margin-top: 1em;
+	margin-left: 2em;
 }
 article h3{
     column-span: all;
@@ -69,7 +67,8 @@ aside{
     float: right;
 	padding: 20px;
     background-color: #ffebc6;
-    margin-right: 0.5em;
+	margin-top: 1em;
+	margin-right: 2em;
 }
 aside ol {
 	line-height: 1.5em;
