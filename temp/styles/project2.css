@@ -23,7 +23,7 @@ body {
 a:focus, a:hover {
 	font-style: italic;
 	color: orangered;
-    border-color: blue;
+    border: 2px blue;
     border-style: dashed double;
 }
 /* the styles for the header */
