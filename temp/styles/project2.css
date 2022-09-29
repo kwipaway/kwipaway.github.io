@@ -43,6 +43,8 @@ header h2 {
 .shadow {
 	text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
+
+/* ARTICLE */
 article {
     width: 70%;
 	float: left;
@@ -65,6 +67,7 @@ article p::first-letter {
 	font-style: italic;
 	color: lightgreen;
 }
+/* ASIDE */
 aside{
     width: 20%;
     float: right;
@@ -80,6 +83,7 @@ footer p.copyright {
 	text-align: center;
 	font-size: 80%;
 }
+/*FIXED*/
 p.fixed {
 	width: auto;
 	position: fixed;
