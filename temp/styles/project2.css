@@ -59,6 +59,10 @@ article img {
     float: left;
 	margin-right: 2em;     
 }
+article p::first-letter {
+	font-size: 4em;
+	font-weight: bold;
+}
 aside{
     width: 20%;
     float: right;
