@@ -1,0 +1,42 @@
+
+html{
+	background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 1000px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 1.5em;
+	border: 1px solid black;
+	border-radius: 25px;
+	box-shadow: 5px 5px 0 0;
+}
+
+a:focus, a:hover {
+	font-style: italic;
+	color: orangered;
+}
+/* the styles for the header */
+header h1 {
+	font-size: 175%;
+	color: maroon;
+	text-indent: 30px;
+}
+header h2 {
+	font-size: 130%;
+	color: #800000;
+	/*color: var(--global-color-1);*/
+	text-indent: 30px;
+}
+header img {
+	float: left;
+	margin-left: 2em;
+}
+.shadow {
+	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
+	text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
