@@ -68,6 +68,7 @@ aside{
 footer {
 	clear: both;
 	border-top: 2px solid maroon;
+	margin-top: 2em;
 }
 footer p.copyright {
 	text-align: center;
