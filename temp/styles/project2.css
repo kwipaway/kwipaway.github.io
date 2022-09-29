@@ -60,10 +60,10 @@ article img {
 	margin-right: 2em;     
 }
 aside{
-    width: 30%;
+    width: 20%;
     float: right;
 	margin-top: 1em;
-	/*padding: 20px;*/
+	padding: 20px;
     background-color: #ffebc6;
 }
 footer {
