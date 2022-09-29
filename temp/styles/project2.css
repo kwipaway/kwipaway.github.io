@@ -23,8 +23,12 @@ a:focus, a:hover {
     border-style: dotted solid;
 }
 header {
-	padding-bottom: 1em;
+	padding-bottom: 2em;
     border-bottom: 2px solid #800000;
+}
+header img {
+	float: left;
+	margin-left: 2em;
 }
 header h1 {
 	font-size: 175%;
@@ -35,10 +39,6 @@ header h2 {
 	font-size: 130%;
 	color: #800000;
 	text-indent: 30px;
-}
-header img {
-	float: left;
-	margin-left: 2em;
 }
 .shadow {
 	text-shadow: 2px 2px 2px rgb(128, 0, 0);
