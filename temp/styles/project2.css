@@ -70,6 +70,7 @@ article img {
 }
 aside{
     width: 400px;
+    float: right;
 	margin: 1.5em 2em 0em 2em;
 	padding: 1em;
 }
