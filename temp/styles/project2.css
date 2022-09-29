@@ -80,6 +80,7 @@ aside ol {
 
 footer {
 	clear: both;
+	border-top: 2px solid maroon;
 }
 footer p.copyright {
 	text-align: center;
