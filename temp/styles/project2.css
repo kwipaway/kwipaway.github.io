@@ -2,12 +2,9 @@
 :root {
 	--global-color-1: #800000;
 }*/
-
 html{
 	background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
-
-/* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -20,8 +17,8 @@ body {
 	box-shadow: 5px 5px 0 0;
 }
 article, aside {
-    margin-top: 1.5em;
-    margin-bottom: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -61,7 +58,8 @@ article h3{
 
 article img {
     float: left;
-    margin: .5em 2em 2em 2em;    
+    margin-left: 2em;    
+
 }
 aside{
     width: 400px;
