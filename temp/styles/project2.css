@@ -56,11 +56,9 @@ article {
 article h3{
     column-span: all;
 }
-
 article img {
     float: left;
     margin-left: 2em;    
-
 }
 aside{
     width: 20%;
