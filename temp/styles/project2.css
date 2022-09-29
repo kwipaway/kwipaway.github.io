@@ -49,7 +49,7 @@ article {
     column-count: 2;
     column-rule: 2px dotted maroon;    
     column-gap: 2em;
-	margin-top: 1em;
+	/*margin-top: 1em;*/
 	margin-left: 2em;
 }
 article h3{
