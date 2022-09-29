@@ -19,8 +19,8 @@ body {
 a:focus, a:hover {
 	font-style: italic;
 	color: orangered;
-    border: 4px blue;
-    border-style: dotted double;
+    border: 3px blue;
+    border-style: dotted solid;
 }
 header {
 	padding-bottom: 1em;
