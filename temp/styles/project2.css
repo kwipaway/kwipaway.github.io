@@ -52,8 +52,8 @@ article {
     width: 60%;
 	float: left;
     column-count: 2;
-    column-rule: 1px solid black;    
-    column-gap: 1.3em;
+    column-rule: 2px dotted maroon;    
+    column-gap: 2em;
 	margin-top: 1em;
 	margin-left: 2em;
 }
