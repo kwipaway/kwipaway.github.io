@@ -57,16 +57,13 @@ article h3{
 }
 article img {
     float: left;
-	margin: 0 1em; 
-    margin-left: 2em;    
-	margin-right: 
+	margin: 0 2em 2 em;     
 }
 aside{
     width: 20%;
     float: right;
 	padding: 20px;
     background-color: #ffebc6;
-	margin-top: 1em;
 }
 footer {
 	clear: both;
