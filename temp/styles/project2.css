@@ -62,6 +62,8 @@ article img {
 article p::first-letter {
 	font-size: 4em;
 	font-weight: bold;
+	font-style: italic;
+	color: lightgreen;
 }
 aside{
     width: 20%;
