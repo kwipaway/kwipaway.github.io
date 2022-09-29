@@ -23,7 +23,7 @@ body {
 a:focus, a:hover {
 	font-style: italic;
 	color: orangered;
-    border: 2px blue;
+    border: 4px blue;
     border-style: dashed double;
 }
 /* the styles for the header */
@@ -35,7 +35,6 @@ header h1 {
 header h2 {
 	font-size: 130%;
 	color: #800000;
-	/*color: var(--global-color-1);*/
 	text-indent: 30px;
 }
 img {
@@ -46,38 +45,20 @@ img {
 	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
 	text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
-/* the styles for the main content */
-main {
-	clear: left;
-}
-main h3 {
-	margin: 3em 2em 1.5em;
-	font-size: 105%;
-	border: 5px double blue;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px 4px red;
-	padding: 1em;
-}
-main nav {
-	margin: 1.5em 2em 1.5em;
-	font-size: 105%;
-	border: 5px dashed blue;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px 4px red;
-	padding: 0.5em;
-}
+
 #list {
 	line-height: 1.5em;
 }
-div.contact{
+aside{
+    width: 
 	margin: 1.5em 2em 0em 2em;
-	border: 5px dotted blue;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px 4px red;
 	padding: 1em;
 }
 
 /* the styles for the footer */
+footer {
+	clear: both;
+}
 footer p.copyright {
 	text-align: center;
 	font-size: 80%;
