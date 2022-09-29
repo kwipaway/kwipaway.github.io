@@ -27,7 +27,10 @@ a:focus, a:hover {
 	font-style: italic;
 	color: orangered;
     border: 4px blue;
-    border-style: dashed double;
+    border-style: dotted double;
+}
+header {
+    border-bottom: 2px solid #800000;
 }
 /* the styles for the header */
 header h1 {
@@ -44,21 +47,31 @@ header img {
 	float: left;
 	margin-left: 2em;
 }
+.shadow {
+	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
+	text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
+article {
+    width: 600px;
+    column-count: 2;
+    column-rule: 1px solid black;
+    
+}
+article h3{
+    column-span: all;
+}
+
 article img {
     float: left;
     margin: 1em 2em 0 2em;
     
-}
-.shadow {
-	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
-	text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
 
 #list {
 	line-height: 1.5em;
 }
 aside{
-    width: 
+    width: 400px;
 	margin: 1.5em 2em 0em 2em;
 	padding: 1em;
 }
