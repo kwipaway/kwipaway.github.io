@@ -50,3 +50,12 @@ article {
     column-gap: 2em;
     margin-left: 2em; 
 }
+article h3 {
+	column-span: all;
+}
+article img {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
