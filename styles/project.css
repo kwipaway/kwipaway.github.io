@@ -7,7 +7,7 @@ html{
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-	width: 1000px;
+	width: 90%;
 	background-color: white;
 	margin: 15px auto;
 	padding: 15px 1.5em;
@@ -64,3 +64,10 @@ article p::first-letter {
 	font-style: italic;
 	color: lightgreen;
 }
+aside {
+	width: 20%;
+	float: right;
+	padding: 0.1em 1em 1em;
+	background-color: #ffebc6;
+}
+
