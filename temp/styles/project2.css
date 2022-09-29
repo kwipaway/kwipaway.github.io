@@ -52,7 +52,8 @@ article {
     width: 60%;
     column-count: 2;
     column-rule: 1px solid black;    
-    column-gap: .05em;
+    column-gap: 1em;
+	float: left;
 }
 article h3{
     column-span: all;
