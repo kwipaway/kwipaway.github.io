@@ -2,12 +2,10 @@
 :root {
 	--global-color-1: #800000;
 }*/
-
 html{
 	background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 }
 
-/* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -17,14 +15,12 @@ body {
 	padding: 15px 1.5em;
 	border: 1px solid black;
 	border-radius: 25px;
-	box-shadow: 5px 5px 0 0;
+	box-shadow: 5px 5px 0 0; 
 }
-
 a:focus, a:hover {
 	font-style: italic;
 	color: orangered;
 }
-/* the styles for the header */
 header h1 {
 	font-size: 175%;
 	color: maroon;
@@ -38,7 +34,6 @@ header h2 {
 }
 header img {
 	float: left;
-	margin-left: 2em;
 }
 .shadow {
 	/*text-shadow: 2px 2px 2px var(--global-color-1);*/
@@ -49,33 +44,22 @@ main {
 	clear: left;
 }
 main h3 {
-	margin: 3em 2em 1.5em;
 	font-size: 105%;
+	margin: 3em 2em 1.5em;
 	border: 5px double blue;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px 4px red;
-	padding: 1em;
 }
 main nav {
-	margin: 1.5em 2em 1.5em;
 	font-size: 105%;
-	border: 5px dashed blue;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px 4px red;
-	padding: 0.5em;
+	margin: 1.5em 2em 1.5em;
+
+}
+div.contact{
+	margin: 1.5em 2em 0em 2em;
 }
 #list {
 	line-height: 1.5em;
 }
-div.contact{
-	margin: 1.5em 2em 0em 2em;
-	border: 5px dotted blue;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px 4px red;
-	padding: 1em;
-}
 
-/* the styles for the footer */
 footer p.copyright {
 	text-align: center;
 	font-size: 80%;
