@@ -45,7 +45,7 @@ header img {
 	text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
 article {
-    width: 60%;
+    width: 70%;
 	float: left;
     column-count: 2;
     column-rule: 2px dotted maroon;    
@@ -63,17 +63,12 @@ article img {
 
 }
 aside{
-    width: 30%;
+    width: 20%;
     float: right;
 	padding: 20px;
     background-color: #ffebc6;
 	margin-top: 1em;
-	margin-right: 2em;
 }
-aside ol {
-	line-height: 1.5em;
-}
-
 footer {
 	clear: both;
 	border-top: 2px solid maroon;
