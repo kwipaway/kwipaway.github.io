@@ -20,6 +20,10 @@ a:focus, a:hover {
     border: 3px blue; 
     border-style: dotted solid;
 }
+header {
+	padding-bottom: 2em;
+    border-bottom: 2px solid #800000;
+}
 header img {
 	float: left;
 	margin-left: 2em;
