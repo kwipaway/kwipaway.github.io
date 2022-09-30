@@ -22,12 +22,12 @@ a:focus, a:hover {
 }
 header {
 	padding-bottom: 2em;
-    border-bottom: 2px solid #800000;
+    /*border-bottom: 2px solid #800000;*/
 }
-/*header img {
+header img {
 	float: left;
 	margin-left: 2em;
-}*/
+}
 header h1 {
 	font-size: 175%;
 	color: maroon;
