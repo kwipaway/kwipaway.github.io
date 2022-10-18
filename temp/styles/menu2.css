@@ -67,8 +67,8 @@ body {
 }
 
 article {
-    clear: both;
-    width: 60%;
+    float: left;
+    width: 70%;
     column-count: 3;
     column-rule: 2px dotted blue;    
     column-gap: 2em;
@@ -76,7 +76,7 @@ article {
 }
 aside {
     float: right;
-    width: 20%;    
+    width: 10%;    
 	padding: 0.1em 1em 1em;
     background-color: #ffebc6;
 }
