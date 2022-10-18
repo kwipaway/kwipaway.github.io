@@ -71,7 +71,9 @@ article {
 }
 aside {
     float: right;
-    width: 20%;
+    width: 20%;    
+	padding: 0.1em 1em 1em;
+    background-color: #ffebc6;
 }
 aside ol {
     list-style-type: upper-roman;
@@ -79,6 +81,21 @@ aside ol {
 aside ul {
     list-style-type:square;
 }
-footer{
-    clear: both;
+footer {
+	clear: both;
+	border-top: 2px solid blue;
+}
+footer p.copyright {
+	text-align: center;
+	font-size: 80%;
+}
+/*FIXED*/
+p.fixed {
+	width: auto;
+	position: fixed;
+	bottom: 35%;
+	right: 0;
+	border: 3px solid darkgreen;
+	background-color: lightgreen;
+	padding: 1.5em;
 }
