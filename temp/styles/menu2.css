@@ -52,7 +52,7 @@ nav{
 }
 
 html {
-	background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+	background-image: linear-gradient(to left, white 0%, lightblue 100%);
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
