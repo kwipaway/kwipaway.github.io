@@ -46,6 +46,11 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
+nav{
+    padding-bottom: 2em;
+    border-bottom: 1px solid blue;
+}
+
 html {
 	background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
