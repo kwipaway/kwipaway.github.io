@@ -47,8 +47,8 @@
 #nav_menu ul li a.current { color: yellow; }
 
 nav{
-    padding-bottom: 2em;
-    border-bottom: 1px solid blue;
+    padding-bottom: 4em;
+    border-bottom: 3x solid blue;
 }
 
 html {
@@ -96,19 +96,9 @@ aside ul {
 }
 footer {
 	clear: both;
-	border-top: 2px solid blue;
+	border-top: 3px solid blue;
 }
 footer p.copyright {
 	text-align: center;
 	font-size: 80%;
-}
-/*FIXED*/
-p.fixed {
-	width: auto;
-	position: fixed;
-	bottom: 35%;
-	right: 0;
-	border: 3px solid darkgreen;
-	background-color: lightgreen;
-	padding: 1.5em;
 }
