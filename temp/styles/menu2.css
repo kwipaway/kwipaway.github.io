@@ -78,7 +78,6 @@ article h1 {
     column-span: all;
 }
 aside {
-    float: right;
     width: 20%;    
 	padding: 0.1em 1em 1em;
     position: fixed;
