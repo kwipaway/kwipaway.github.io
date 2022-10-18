@@ -48,9 +48,15 @@
 article {
     clear: both;
 }
+aside {
+    float: right;
+}
 aside ol {
     list-style-type: upper-roman;
 }
 aside ul {
     list-style-type:square;
+}
+footer{
+    clear: both;
 }
