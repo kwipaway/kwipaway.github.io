@@ -77,6 +77,13 @@ article {
 article h1 {
     column-span: all;
 }
+article p::first-letter {
+    font: 2em italic bold;
+}
+article img {
+    float: left;
+    padding: 1em;
+}
 aside {
     width: 20%;    
 	padding: 0.1em 1em 1em;
