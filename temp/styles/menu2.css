@@ -77,7 +77,7 @@ article {
 article h1 {
     column-span: all;
 }
-article h2 {
+article h1, h2 {
     color: blue;
 }
 article p::first-letter {
