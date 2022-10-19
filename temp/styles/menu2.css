@@ -82,7 +82,7 @@ article p::first-letter {
 }
 article img {
     float: left;
-    padding: 1em;
+    padding: 1em 1em 1em 0;
 }
 aside {
     width: 20%;    
