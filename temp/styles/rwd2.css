@@ -95,14 +95,14 @@ section a {
     font-weight: bold;
     color: white;    
 }
-article {
-    padding: 1.2em;
-}
+
 article h2{
     font-size: 1.25em;
+    padding: 1.2em;
 }
 article p{
     font-size: 1em;
+    padding: 1.2em;
 }
 article img {
     margin: auto;
