@@ -91,9 +91,8 @@ section a {
     text-decoration: none;
     color: white;
 }
-.menu a:hover, a.current {
-    font-weight: bold;
-    color: white;    
+.menu a:hover, a.current {    
+    text-decoration: underline;
 }
 article {
     padding: 0 1em;
