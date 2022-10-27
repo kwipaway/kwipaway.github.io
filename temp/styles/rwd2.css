@@ -8,6 +8,7 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 box-sizing: border-box;
 }
 
+
 .top-nav {
 display: flex;
 flex-direction: row;
@@ -126,7 +127,3 @@ transform: rotate(-405deg);
 }
 }
 /*-------------------------------------------------------*/
-h2 {
-    vertical-align: center;
-    text-align: center;
-  }
