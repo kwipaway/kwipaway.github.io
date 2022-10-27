@@ -88,16 +88,13 @@ transform: rotate(-405deg);
 /*----end of menu*/
 
 section a {
-    display: block;
     text-decoration: none;
 }
 a.current {
-    background-color: white;
-    color: #f56b45;
+    color: white;
 }
 .menu a:hover {
-    background-color: white;
-    color: #f56b45;    
+    color: white;    
 }
 
 article h2{
