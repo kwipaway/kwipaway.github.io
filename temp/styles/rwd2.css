@@ -87,15 +87,17 @@ transform: rotate(-405deg);
 }
 /*----end of menu*/
 
+section a {
+    display: block;
+    text-decoration: none;
+}
 a.current {
     background-color: white;
     color: #f56b45;
-    text-decoration: none;
 }
 .menu a:hover {
     background-color: white;
     color: #f56b45;    
-    text-decoration: none;
 }
 
 article h2{
