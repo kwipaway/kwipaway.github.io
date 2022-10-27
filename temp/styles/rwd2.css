@@ -92,10 +92,11 @@ section a {
     color: white;
 }
 .menu a:hover, a.current {
-    color: goldenrod;    
+    font-weight: bold;
+    color: white;    
 }
 article {
-    padding: 1.2em;
+    padding: 0 1em;
 }
 article h2{
     font-size: 1.25em;
