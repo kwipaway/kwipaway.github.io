@@ -92,7 +92,6 @@ section a {
     color: white;
 }
 .menu a:hover, a.current {
-    font-weight: bold;
     color: goldenrod;    
 }
 article {
