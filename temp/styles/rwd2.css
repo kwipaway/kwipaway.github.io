@@ -1,5 +1,5 @@
 html, body {
-margin: 0;
+margin: 2em;
 height: 100%;
 }
 
@@ -84,6 +84,7 @@ margin-top: 0px;
 transform: rotate(-405deg);
 }
 
+/*-------------------------------------------------------*/
 @media (max-width: 700px) {
 .menu-button-container {
     display: flex;
@@ -124,3 +125,8 @@ transform: rotate(-405deg);
     border-bottom: 1px solid #444;
 }
 }
+/*-------------------------------------------------------*/
+h2 {
+    vertical-align: center;
+    text-align: center;
+  }
