@@ -93,7 +93,7 @@ section a {
 }
 .menu a:hover, a.current {
     font-weight: bold;
-    color: white;    
+    color: goldenrod;    
 }
 article {
     padding: 1.2em;
