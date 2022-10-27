@@ -1,6 +1,8 @@
 html, body {
 margin: 0;
 height: 100%;
+font-size: 100%;
+width: 96%;
 }
 
 * {
@@ -86,8 +88,15 @@ transform: rotate(-405deg);
 }
 /*----end of menu*/
 
+article h2{
+    font-size: 1.25em;
+}
+article p{
+    font-size: 1em;
+}
 article img {
-    margin: 0 auto;
+    margin: auto;
+    display: block;
     width: 100%;
     max-width: 768px;
 }
@@ -98,7 +107,7 @@ footer {
 }
 footer p.copyright {
 	text-align: center;
-	font-size: 80%;
+	font-size: .8em;
 }
 
 /*---------------------------------------------------------------*/
@@ -140,6 +149,21 @@ footer p.copyright {
 }
 .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+}
+
+article h2{
+    font-size: 1.1em;
+}
+article p{
+    font-size: .8em;
+}
+footer {
+	clear: both;
+	border-top: 1px solid #f46b45;
+}
+footer p.copyright {
+	text-align: center;
+	font-size: .6em;
 }
 }
 /*---------------------------------------------------------------*/
