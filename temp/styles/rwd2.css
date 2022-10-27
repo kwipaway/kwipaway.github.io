@@ -8,6 +8,8 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 box-sizing: border-box;
 }
 
+/*---------------------------------------------------------------*/
+@media (max-width: 1440px) {
 
 .top-nav {
 display: flex;
@@ -84,8 +86,16 @@ background: rgba(255, 255, 255, 0);
 margin-top: 0px;
 transform: rotate(-405deg);
 }
+/*----end of menu*/
 
-/*-------------------------------------------------------*/
+article img {
+    width: 100%;
+    max-width: 2000px;
+    margin: .5em;
+}
+}
+
+/*---------------------------------------------------------------*/
 @media (max-width: 700px) {
 .menu-button-container {
     display: flex;
@@ -126,4 +136,5 @@ transform: rotate(-405deg);
     border-bottom: 1px solid #444;
 }
 }
-/*-------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+
