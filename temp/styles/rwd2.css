@@ -92,6 +92,15 @@ article img {
     width: 100%;
     max-width: 768px;
 }
+
+footer {
+	clear: both;
+	border-top: 3px solid #f46b45;
+}
+footer p.copyright {
+	text-align: center;
+	font-size: 80%;
+}
 }
 
 /*---------------------------------------------------------------*/
