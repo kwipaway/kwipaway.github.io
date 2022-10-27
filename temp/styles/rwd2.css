@@ -9,8 +9,6 @@ box-sizing: border-box;
 }
 
 /*---------------------------------------------------------------*/
-@media (max-width: 1440px) {
-
 .top-nav {
 display: flex;
 flex-direction: row;
@@ -100,7 +98,6 @@ footer {
 footer p.copyright {
 	text-align: center;
 	font-size: 80%;
-}
 }
 
 /*---------------------------------------------------------------*/
