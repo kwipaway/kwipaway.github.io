@@ -44,7 +44,8 @@ table.third, td.third {
     th, td {
         display: block;
     }
-    thead {
+    thead, tr:first-child {
         display: none;
     }
+    
 }
