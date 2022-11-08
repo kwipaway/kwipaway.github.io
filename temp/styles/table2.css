@@ -21,12 +21,14 @@ table.second {
     border: 2px solid purple;   
     caption-side: bottom;
 }
-table.second, td.second {
+table.second thead {
     border: 2px solid lightsalmon;
-    border-collapse: collapse;
 }
 table.second th, table.second td {
     padding: 0.5em;  
+}
+table.second thead tr:first-child{     
+    border-bottom: 2px solid purple;
 }
 /*-----------------------------------------------------------*/
 table.third {    
