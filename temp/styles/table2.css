@@ -15,6 +15,9 @@ table.first, td.first {
     border: 2px solid blue;
     border-collapse: separate;
 }
+table.first tr:nth-child(even) {
+    background-color: gray;
+}
 /*-----------------------------------------------------------*/
 table.second {    
     border-collapse: collapse; 
