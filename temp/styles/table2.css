@@ -22,10 +22,11 @@ table.second {
     caption-side: bottom;
 }
 table.second thead {
-    border: 2px solid lightsalmon;
+    border: 2px solid salmon;
 }
 table.second th, table.second td {
     padding: 0.5em;  
+    vertical-align: middle;
 }
 table.second thead tr:first-child{     
     border-bottom: 2px solid purple;
