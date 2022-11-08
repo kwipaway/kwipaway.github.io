@@ -11,11 +11,10 @@ table.first {
     border-collapse: separate;
     border: 2px solid black;    
 }
-table.first, td.first {
+table.first th, table.first td {
     border: 2px solid blue;
-    border-collapse: separate;
 }
-table.first tr:nth-child(even) {
+table.first tr:nth-child(odd) {
     background-color: gray;
 }
 /*-----------------------------------------------------------*/
