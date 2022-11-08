@@ -11,10 +11,11 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 .first-tbl {
     border: 2px solid darkolivegreen;
     border-collapse: separate;
+    caption-side: bottom;
 }
 
 
 /*---------------------------------------------------------------*/
 @media (max-width: 700px) {
-    
+
 }
