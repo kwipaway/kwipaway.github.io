@@ -1,5 +1,6 @@
 html, body {
 margin: 1em;
+padding: 0.3em;
 height: 100%;
 font-size: 100%;
 }
@@ -11,7 +12,7 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 table.first {
     border: 2px solid blue;
     border-collapse: separate;
-    padding: 0.7em;
+    padding: 0.3em;
 }
 table.first, td.first {
     border: 2px solid blue;
@@ -22,7 +23,6 @@ table.second {
     border: 2px solid purple;
     border-collapse: collapse;    
     caption-side: bottom;
-    padding: 0.7em
 }
 table.second, td.second {
     border: 2px solid purple;
@@ -37,7 +37,6 @@ table.third thead {
 }
 table.third td {
     vertical-align: top;    
-    padding: 1em;
 }
 table.third tr {    
     border-bottom: 1.5px solid orangered;
