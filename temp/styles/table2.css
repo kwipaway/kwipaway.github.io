@@ -9,28 +9,29 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 table.first {
-    border: 2px solid darkolivegreen;
+    border: 2px solid blue;
     border-collapse: separate;
 }
 table.first, td.first {
-    border: 2px solid darkolivegreen;
+    border: 2px solid blue;
     border-collapse: separate;
 }
 
 table.second {
-    border: 2px solid darkolivegreen;
+    border: 2px solid purple;
     border-collapse: collapse;    
     caption-side: bottom;
 }
 table.second, td.second {
-    border: 2px solid darkolivegreen;
+    border: 2px solid purple;
     border-collapse: collapse;
 }
 
 
 table.third {
-    border: 2px solid orangered;
     border-collapse: collapse;
+    vertical-align: top;
+    text-align: left;
 }
 table.third, td.third {
     border: 2px solid orangered;
