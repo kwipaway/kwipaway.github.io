@@ -11,6 +11,7 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 table.first {
     border: 2px solid blue;
     border-collapse: separate;
+    padding: 0.7em;
 }
 table.first, td.first {
     border: 2px solid blue;
@@ -21,6 +22,7 @@ table.second {
     border: 2px solid purple;
     border-collapse: collapse;    
     caption-side: bottom;
+    padding: 0.7em
 }
 table.second, td.second {
     border: 2px solid purple;
@@ -31,9 +33,10 @@ table.third  {
     border-collapse: collapse;
     vertical-align: top;
     text-align: left;
+    padding: 0.7em;
 }
 table.third tr, table.third td {
-    border: 2px solid orangered;
+    border: 1px solid orangered;
     border-collapse: collapse;
 }
 
@@ -44,6 +47,7 @@ table.third tr, table.third td {
     }
     thead, td.number {
         display: none;
+        padding: 0;
     }
 
     
