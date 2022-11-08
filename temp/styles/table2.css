@@ -35,11 +35,14 @@ table.third  {
     text-align: left;
     padding: 0.7em;
 }
+table.third thead {
+    color: lightsalmon;
+}
 td.number {
     vertical-align: top;
 }
 table.third tr, table.third td {
-    border: 1px solid orangered;
+    border: 1.5px solid orangered;
     border-collapse: collapse;
 }
 
