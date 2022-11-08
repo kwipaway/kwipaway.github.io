@@ -27,7 +27,7 @@ table.second th {
     background-color: salmon;
 }
 table.second th, table.second td {
-    padding: 0.5em;  
+    padding: 0.7em;  
     vertical-align: middle;
     border: 2px solid purple;
 }
@@ -42,7 +42,7 @@ table.third thead {
     background-color: lightgreen;
 }
 table.third th, table.third td {
-    padding: 0.5em;
+    padding: 0.7em;
     vertical-align: top;    
 }
 table.third thead tr:first-child{     
