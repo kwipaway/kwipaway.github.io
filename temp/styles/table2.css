@@ -1,6 +1,5 @@
 html, body {
 margin: 1em;
-padding: 0.3em;
 height: 100%;
 font-size: 100%;
 }
@@ -12,7 +11,7 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 table.first {
     border: 2px solid blue;
     border-collapse: separate;
-    padding: 0.3em;
+    padding: 0.5em;
 }
 table.first, td.first {
     border: 2px solid blue;
@@ -23,22 +22,24 @@ table.second {
     border: 2px solid purple;
     border-collapse: collapse;    
     caption-side: bottom;
+    padding: 0.5em;
 }
 table.second, td.second {
     border: 2px solid purple;
     border-collapse: collapse;
 }
 
-table.third  {
+table.third {    
     border-collapse: collapse;
 }
 table.third thead {
     background-color: lightsalmon;
 }
-table.third td {
+table.third th, table.third td {
+    padding: 0.5em;
     vertical-align: top;    
 }
-table.third tr {    
+table.third tr:first-child, table.third tr:last-child {     
     border-bottom: 1.5px solid orangered;
 }
 
