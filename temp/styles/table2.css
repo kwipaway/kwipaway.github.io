@@ -42,7 +42,7 @@ table.third, td.third {
     th, td {
         display: block;
     }
-    thead, tr:first-child {
+    thead {
         display: none;
     }
     
