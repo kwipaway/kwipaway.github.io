@@ -8,19 +8,39 @@ font-size: 100%;
 font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-.first-tbl {
+table.first {
     border: 2px solid darkolivegreen;
     border-collapse: separate;
+}
+table.first, td.first {
+    border: 2px solid darkolivegreen;
+    border-collapse: separate;
+}
+
+table.second {
+    border: 2px solid darkolivegreen;
+    border-collapse: collapse;    
     caption-side: bottom;
 }
-.first-tbltr, th, td {
+table.second, td.second {
     border: 2px solid darkolivegreen;
     border-collapse: separate;
 }
+tr:nth-child(even) td {
+    background-color: orange;
+}
 
+table.third {
+    border: 2px solid darkolivegreen;
+    border-collapse: collapse;
+}
+table.third, td.third {
+    border: 2px solid darkolivegreen;
+    border-collapse: collapse;
+}
 
 /*---------------------------------------------------------------*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 425px) {
     th, td {
         display: block;
     }
