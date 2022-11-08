@@ -31,15 +31,13 @@ table.second, td.second {
 
 table.third  {
     border-collapse: collapse;
-    vertical-align: top;
-    text-align: left;
-    padding: 0.7em;
 }
 table.third thead {
     background-color: lightsalmon;
 }
-td.number {
-    vertical-align: top;
+td {
+    vertical-align: top;    
+    padding: 1em;
 }
 table.third tr, table.third td {
     border: 1.5px solid orangered;
