@@ -35,13 +35,12 @@ table.third  {
 table.third thead {
     background-color: lightsalmon;
 }
-td {
+table.third td {
     vertical-align: top;    
     padding: 1em;
 }
-table.third tr, table.third td {
-    border: 1.5px solid orangered;
-    border-collapse: collapse;
+table.third tr {    
+    border-bottom: 1.5px solid orangered;
 }
 
 /*---------------------------------------------------------------*/
