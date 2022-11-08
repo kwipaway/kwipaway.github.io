@@ -36,7 +36,7 @@ table.third  {
     padding: 0.7em;
 }
 table.third thead {
-    color: lightsalmon;
+    background-color: lightsalmon;
 }
 td.number {
     vertical-align: top;
