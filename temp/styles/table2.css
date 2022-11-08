@@ -39,7 +39,7 @@ table.third th, table.third td {
     padding: 0.5em;
     vertical-align: top;    
 }
-table.third tr:nth-child(2), table.third tr:last-child {     
+table.third thead tr:nth-child(2), table.third tr:last-child {     
     border-bottom: 1.5px solid orangered;
 }
 
