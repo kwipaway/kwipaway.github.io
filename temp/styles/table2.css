@@ -15,7 +15,7 @@ table.first th, table.first td {
     border: 2px solid blue;
 }
 table.first tr:nth-child(odd) {
-    background-color: gray;
+    background-color: lightblue;
 }
 /*-----------------------------------------------------------*/
 table.second {    
