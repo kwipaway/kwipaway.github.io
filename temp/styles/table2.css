@@ -35,6 +35,9 @@ table.third  {
     text-align: left;
     padding: 0.7em;
 }
+td.number {
+    vertical-align: top;
+}
 table.third tr, table.third td {
     border: 1px solid orangered;
     border-collapse: collapse;
