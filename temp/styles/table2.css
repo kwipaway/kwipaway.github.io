@@ -27,12 +27,12 @@ table.second, td.second {
     border-collapse: collapse;
 }
 
-table.third {
+table.third  {
     border-collapse: collapse;
     vertical-align: top;
     text-align: left;
 }
-table.third, td.third {
+table.third tr, table.third td {
     border: 2px solid orangered;
     border-collapse: collapse;
 }
@@ -42,8 +42,9 @@ table.third, td.third {
     th, td {
         display: block;
     }
-    thead {
+    thead, td.number {
         display: none;
     }
+
     
 }
