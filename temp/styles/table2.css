@@ -13,9 +13,18 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
     border-collapse: separate;
     caption-side: bottom;
 }
+.first-tbltr, th, td {
+    border: 2px solid darkolivegreen;
+    border-collapse: separate;
+}
 
 
 /*---------------------------------------------------------------*/
-@media (max-width: 700px) {
-
+@media only screen and (max-width: 700px) {
+    th, td {
+        display: block;
+    }
+    thead {
+        display: none;
+    }
 }
