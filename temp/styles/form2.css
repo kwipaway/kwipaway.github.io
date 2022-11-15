@@ -13,7 +13,7 @@ label, input, select {
     font-size: 90%;
 }
 label {
-    float: left;
+    /*float: left;*/
     width: 9em;
     text-align: right;
 }
