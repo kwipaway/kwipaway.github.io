@@ -15,7 +15,7 @@ label, input, select {
 label {
     float: left;
     width: 9em;
-    text-align: left;
+    text-align: right;
 }
 
 input, select {
