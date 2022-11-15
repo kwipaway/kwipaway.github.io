@@ -17,6 +17,10 @@ label {
     width: 12em;
     text-align: left;
 }
+#checkboxes label {
+    width: 12em;
+    text-align: left;
+}
 input, select {
     width: 15em;
     margin-left: .5em;
