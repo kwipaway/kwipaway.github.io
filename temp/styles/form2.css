@@ -13,7 +13,7 @@ label, input, select {
     font-size: 90%;
 }
 label {
-    float: left;
+    /*float: left;*/
     width: 12em;
     text-align: right;
 }
@@ -32,7 +32,7 @@ input:invalid {
     box-shadow: none;
 }
 br {
-    clear: both;
+    /*clear: both;*/
 }
 #buttons input {
     width: 10em;
