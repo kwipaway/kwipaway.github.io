@@ -18,17 +18,8 @@ label {
     text-align: right;
 }
 input, select {
-    width: 15em;
     margin-left: .5em;
     margin-bottom: .5em;
-}
-#checkboxes label {
-    width: 9em;
-    text-align: left;
-}
-#checkboxes input {
-    margin-left: 0;
-    text-align: left;
 }
 input:required {
     border: 3px solid red;
