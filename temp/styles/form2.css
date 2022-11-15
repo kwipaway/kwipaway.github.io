@@ -27,6 +27,7 @@ input, select {
     text-align: left;
 }
 #checkboxes input {
+    margin-left: 0;
     text-align: left;
 }
 input:required {
