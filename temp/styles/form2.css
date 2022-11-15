@@ -34,6 +34,10 @@ input:invalid {
 br {
     clear: both;
 }
+textarea {
+    height: 5em;
+    width: 20em;
+}
 #buttons input {
     width: 10em;
 }
