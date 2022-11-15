@@ -13,15 +13,17 @@ label, input, select {
     font-size: 90%;
 }
 label {
-    /*float: left;*/
+    float: left;
     width: 9em;
     text-align: right;
 }
-
 input, select {
     width: 15em;
     margin-left: .5em;
     margin-bottom: .5em;
+}
+#checkboxes input {
+    text-align: left;
 }
 input:required {
     border: 3px solid red;
