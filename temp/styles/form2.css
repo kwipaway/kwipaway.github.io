@@ -35,8 +35,8 @@ br {
     clear: both;
 }
 textarea {
-    height: 5em;
-    width: 20em;
+    height: 20em;
+    width: 35em;
 }
 #buttons input {
     width: 10em;

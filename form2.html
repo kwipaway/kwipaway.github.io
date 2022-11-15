@@ -58,26 +58,26 @@
             <option value="c">Charter</option>
         </select><br>
         <label for="starting_date">Starting Date:</label>
-        <input type="date" name="starting_date" id="starting_date"
-            required><br>
+        <input type="date" name="starting_date" id="starting_date" required><br>
         <label for="tickets">Tickets for Guests:</label>
         <input type="number" name="tickets" id="tickets"
-            value="2" min="1" max="4"
-            placeholder="from 1 to 4"><br>
+            value="2" min="1" max="4" placeholder="from 1 to 4"><br>
     </fieldset>    
     <fieldset>
         <legend>How Did You Hear About Us?</legend>
         <input type="checkbox" name="search" id="search" value="search engine">
         <label for="search">Search engine (e.g. Google, Bing)</label>'
         <input type="checkbox" name="social" id="social" value="social media">
-        <label for="search">Social media</label>
+        <label for="social">Social media</label>
         <input type="checkbox" name="email" id="email" value="email">
-        <label for="search">Email</label>
+        <label for="email">Email</label>
         <input type="checkbox" name="friend" id="friend" value="friend">
-        <label for="search">Friend or colleague</label>
+        <label for="friend">Friend or colleague</label>
     </fieldset>
-    <textarea id="comments" placeholder="If you have any comments, please enter them here."></textarea>
-
+    <fieldset>
+        <legend>Comments</legend>
+        <textarea id="comments" placeholder="If you have any comments, please enter them here."></textarea>    
+    </fieldset>  
     <fieldset id="buttons">
         <legend>Submit Your Membership</legend>
         <label>&nbsp;</label>
