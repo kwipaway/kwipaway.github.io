@@ -22,6 +22,10 @@ input, select {
     margin-left: .5em;
     margin-bottom: .5em;
 }
+#checkboxes label {
+    width: 9em;
+    text-align: left;
+}
 #checkboxes input {
     text-align: left;
 }
