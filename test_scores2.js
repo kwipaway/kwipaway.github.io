@@ -1,4 +1,4 @@
-var total = 0;
+let total = 0;
 
 const score1 = parseInt(prompt("Enter test score"));
 total += score1;        
