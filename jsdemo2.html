@@ -20,10 +20,21 @@
         const miles = parseInt(prompt("Enter miles driven"));
         const gallons = parseInt(prompt("Enter gallons of gas used"));
         const mpg = parseFloat(miles/gallons);
-        const html = `<p><label>Miles: </label>${miles}</p>
+        const html2 = `<p><label>Miles: </label>${miles}</p>
                         <p><label>Gallons: </label>${gallons}</p>
                         <p><label>MPG: </label>${mpg.toFixed(2)}</p>`;
-        document.write(html);
+        document.write(html2);
+    </script>    
+
+    <h1>The Miles Per Gallon Calculator</h1>
+    <script>
+        const width = parseFloat(prompt("Enter a width of a rectangle"));
+        const height = parseFloat(prompt("Enter a height of a rectangle"));
+        const area = parseFloat(width*height);
+        const html3 = `<p><label>Width: </label>${width}</p>
+                        <p><label>Height: </label>${height}</p>
+                        <p><label>Area: </label>${area.toFixed(3)}</p>`;
+        document.write(html3);
     </script>    
 </body>
 </html>
