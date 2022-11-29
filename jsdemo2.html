@@ -7,15 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>The Miles Per Gallon Calculator</h1>
     <script>
         const today = new Date();
                 document.write(today.toDateString());
-
+    </script>
+    <h1>The Miles Per Gallon Calculator</h1>
+    <script>
         const miles = parseInt(prompt("Enter miles driven"));
         const gallons = parseInt(prompt("Enter gallons of gas used"));
-
-        // calculate mpg
         const mpg = parseFloat(miles/gallons);
         const html = `<p><label>Miles: </label>${miles}</p>
                         <p><label>Gallons: </label>${gallons}</p>
