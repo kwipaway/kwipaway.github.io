@@ -9,7 +9,9 @@
 <body>
     <h1>The Miles Per Gallon Calculator</h1>
     <script>
-        "use strict";
+        const today = new Date();
+                document.write(today.toDateString());
+
         const miles = parseInt(prompt("Enter miles driven"));
         const gallons = parseInt(prompt("Enter gallons of gas used"));
 
