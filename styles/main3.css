@@ -1,3 +1,7 @@
+html {
+    background-image: linear-gradient(to bottom, white 0%, #cada8a 100%);
+}
+
 body {
     font-family: Arial, Helvetica, Sans-serif;
     font-size: 100%;
