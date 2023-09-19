@@ -44,8 +44,16 @@ main h3 {
     padding: 1em;
     font-size: 105%;
 }
+main nav {
+
+}
+
 #list {
     line-height: 1.5em;
+}
+
+#contact {
+
 }
 footer p.copyright {
     text-align: center;
