@@ -36,6 +36,7 @@ header img {
 }
 article {
     clear: both;
+    width: 70%;
     float: left;
     column-count: 2;
     column-rule: 2px dotted maroon;
