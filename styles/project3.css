@@ -18,6 +18,9 @@ a:focus, a:hover {
     border: 3px blue; 
     border-style: dotted solid;
 }
+header {
+    border-bottom: 2px solid maroon;
+}
 header h1 {
     font-size: 175%;
     color: maroon;
@@ -30,7 +33,7 @@ header h2 {
 }
 header img {
     float: left;
-    margin-right: 2em;
+    margin-left: 2em;
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
