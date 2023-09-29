@@ -57,6 +57,7 @@ article p::first-letter {
     font-weight: bold;
     font-style: italic;
     color: lightgreen;
+    initial-letter: 3em;
 }
 aside {
     width: 20%;
