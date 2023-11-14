@@ -8,7 +8,18 @@
 <body>
     <h1>The Test Scores App</h1>
     <script src="q9.js"></script>   
-    
+
+    <h1>The Miles Per Gallon Calculator</h1>
+    <script>
+        const miles = parseInt(prompt("Enter miles driven"));
+        const gallons = parseInt(prompt("Enter gallons of gas used"));
+        const mpg = parseFloat(miles/gallons);
+        const html2 = `<p>Miles: ${miles}</p>
+                        <p>Gallons: ${gallons}</p>
+                        <h4>MPG: ${mpg.toFixed(2)}</h4>`;
+        document.write(html2);
+    </script>    
+
 
 </body>
 </html>
