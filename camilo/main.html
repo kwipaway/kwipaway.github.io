@@ -21,8 +21,7 @@
     document.body.appendChild(renderer.domElement);
 
     const loader = new THREE.OBJLoader();
-    loader.load(
-      'obj/Furcula.obj',
+    loader.load('obj/Furcula.obj',
       function (object) {
         scene.add(object);
       },
