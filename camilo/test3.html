@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Object Viewer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r129/build/three.min.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r129/examples/js/loaders/OBJLoader.js"></script>
+    <script>
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        var loader = new THREE.OBJLoader();
+        loader.load('/camilo/obj/furcula.obj', function (object) {
+            scene.add(object);
+        });
+
+        camera.position.z = 5;
+
+        var animate = function () {
+            requestAnimationFrame(animate);
+            renderer.render(scene, camera);
+        };
+
+        animate();
+    </script>
+</body>
+</html>
