@@ -57,3 +57,16 @@ article p::first-letter {
     font-style: italic;
     color: lightgreen;
 }
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+}
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
+}
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
