@@ -1,4 +1,4 @@
-#nav_menu ul { list-style-type: none; }
+#nav_menu ul { list-style-type: none; margin: 0}
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
     text-align: center;
