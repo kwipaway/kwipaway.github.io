@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>3D Object Viewer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Model Viewer</title>
+    <!-- Include three.js from a CDN -->
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.162.0/three.module.min.js"></script>
+    <!-- Include OBJLoader from a CDN -->
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.162.0/loaders/OBJLoader.min.js"></script>
 </head>
 <body>
     <img src="../camilo/obj/jupiter.jpg" height="100">
 
-    <!--<script src="https://cdn.rawgit.com/mrdoob/three.js/r129/build/three.min.js"></script>
-    //<script src="https://cdn.rawgit.com/mrdoob/three.js/r129/examples/js/loaders/OBJLoader.js"></script>-->
-
-
-    <script type="module">
-
-        import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.162.0/three.module.min.js';
-        import { OBJLoader } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.162.0/loaders/OBJLoader.min.js';
-
-        var scene = new THREE.Scene();
-        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        var renderer = new THREE.WebGLRenderer();
+    <script>
+        // Set up a basic scene
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer();
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
-        var loader = new THREE.OBJLoader();
-        loader.load('../camilo/obj/archaeopteryx_time.obj', function (object) {
+        // Load your OBJ file
+        const loader = new THREE.OBJLoader();
+        loader.load('../camilo/archaeopteryx_time.obj', (object) => {
+            // Add the loaded object to the scene
             scene.add(object);
         });
 
-        camera.position.z = 700;
+        // Set camera position
+        camera.position.z = 5;
 
-        var animate = function () {
+        // Create a light source
+        const light = new THREE.PointLight(0xffffff);
+        light.position.set(10, 10, 10);
+        scene.add(light);
+
+        // Render loop
+        const animate = () => {
             requestAnimationFrame(animate);
             renderer.render(scene, camera);
         };
-
         animate();
     </script>
 </body>
