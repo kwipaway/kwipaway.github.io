@@ -44,7 +44,7 @@
         // Load OBJ file
         const loader = new THREE.OBJLoader();
         loader.load(
-            '../camilo/archaeopteryx_time.obj',
+            '../camilo/obj/archaeopteryx_time.obj',
             function (object) {
                 scene.add(object);
             },
@@ -57,7 +57,7 @@
         );
 
         // Set camera position
-        camera.position.z = 50;
+        camera.position.z = 5;
 
         // Animation loop
         function animate() {
