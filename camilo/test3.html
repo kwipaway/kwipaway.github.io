@@ -11,7 +11,7 @@
 </head>
 <body>
     <img src="../camilo/obj/jupiter.jpg" height="100">
-    <div>
+    
     <script>
         // Set up a basic scene
         const scene = new THREE.Scene();
@@ -20,9 +20,16 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
+        // Load the MTL material
+        const mtlLoader = new THREE.MTLLoader();
+        mtlLoader.load('../camilo/obj/archaeopteryx_name.mtl', (materials) => {
+            materials.preload();
+        });
+
         // Load your OBJ file
         const loader = new THREE.OBJLoader();
-        loader.load('../camilo/obj/DeadTree.obj', (object) => {
+        objLoader.setMaterials(materials);
+        loader.load('../camilo/obj/archaeopteryx_name.obj', (object) => {
             // Add the loaded object to the scene
             scene.add(object);
         });
@@ -42,7 +49,7 @@
         };
         animate();
     </script>
-    </div>
+    
     <h1>Test</h1>
     <img src="../camilo/obj/jupiter.jpg" height="100">
     <h1>Test</h1>
