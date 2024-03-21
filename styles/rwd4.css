@@ -94,3 +94,24 @@ html, body {
     .menu a:hover, a.current {
         text-decoration: underline;
     }
+    article {
+        padding: 0 1em;
+    }
+    article h2 {
+        font-size: 1.25em;
+    } 
+    article p {
+        font-size: 1em;
+    }
+    article img {
+        margin: auto;
+        display: block;
+        width: 100%;
+        max-width: 768px;
+    }
+    footer {
+        clear: both;
+        border-top: 2px solid #f46b45;
+        text-align: center;
+        font-size: .7em;
+    }
