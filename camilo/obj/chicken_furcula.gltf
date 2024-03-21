@@ -8,59 +8,44 @@
             "bufferView": 0,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 3852,
+            "count": 51357,
             "type": "VEC3",
             "max": [
-                17.462379455566408,
-                24.65060043334961,
-                0.9853309988975525
+                29.609148025512697,
+                21.466018676757814,
+                2.113682985305786
             ],
             "min": [
-                8.563916206359864,
-                23.057443618774415,
-                -0.07716900110244751
+                23.415502548217775,
+                16.342811584472658,
+                -1.8716709613800049
             ]
         },
         {
             "bufferView": 1,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 3852,
+            "count": 51357,
             "type": "VEC3",
             "max": [
-                1.0,
-                1.0,
-                1.0
+                0.9999813437461853,
+                0.9996253848075867,
+                0.9999924898147583
             ],
             "min": [
-                -1.0,
-                -1.0,
-                -1.0
+                -0.9999802112579346,
+                -0.9997077584266663,
+                -0.9999765157699585
             ]
         },
         {
             "bufferView": 2,
             "byteOffset": 0,
-            "componentType": 5126,
-            "count": 3852,
-            "type": "VEC2",
-            "max": [
-                0.9378839731216431,
-                0.9980080127716065
-            ],
-            "min": [
-                0.0018720000516623259,
-                0.0019919872283935549
-            ]
-        },
-        {
-            "bufferView": 3,
-            "byteOffset": 0,
             "componentType": 5125,
-            "count": 13479,
+            "count": 308118,
             "type": "SCALAR",
             "max": [
-                3851
+                51356
             ],
             "min": [
                 0
@@ -69,7 +54,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 177180,
+            "byteLength": 2465040,
             "uri": "result.bin"
         }
     ],
@@ -77,25 +62,19 @@
         {
             "buffer": 0,
             "byteOffset": 0,
-            "byteLength": 46224,
+            "byteLength": 616284,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 46224,
-            "byteLength": 46224,
+            "byteOffset": 616284,
+            "byteLength": 616284,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 92448,
-            "byteLength": 30816,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 123264,
-            "byteLength": 53916,
+            "byteOffset": 1232568,
+            "byteLength": 1232472,
             "target": 34963
         }
     ],
@@ -113,7 +92,7 @@
             }
         },
         {
-            "name": "typeStandardSurface6SG",
+            "name": "initialShadingGroup",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
                     0.6000000238418579,
@@ -127,16 +106,15 @@
     ],
     "meshes": [
         {
-            "name": "typeMesh7",
+            "name": "mmGroup0",
             "primitives": [
                 {
                     "mode": 4,
                     "material": 1,
-                    "indices": 3,
+                    "indices": 2,
                     "attributes": {
                         "POSITION": 0,
-                        "NORMAL": 1,
-                        "TEXCOORD_0": 2
+                        "NORMAL": 1
                     }
                 }
             ]
@@ -154,7 +132,7 @@
             "name": "default"
         },
         {
-            "name": "typeMesh7",
+            "name": "mmGroup0",
             "mesh": 0
         }
     ],
