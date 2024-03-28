@@ -1,0 +1,10 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table.first {
+    border-collapse: seperate;
+    border: 2px solid black;
+}
+table.first th, table.first td {
+    border: 2px solid blue;
+}
