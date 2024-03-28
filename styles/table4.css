@@ -19,3 +19,8 @@ table.second {
 table.second th {
     background-color: salmon;
 }
+table.second th, table.second td {
+    padding: .7em;
+    vertical-align: middle;
+    border: 2px solid purple;
+}
