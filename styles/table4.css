@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 table.first {
-    border-collapse: seperate;
+    border-collapse: separate;
     border: 2px solid black;
 }
 table.first th, table.first td {
@@ -10,4 +10,12 @@ table.first th, table.first td {
 }
 table.first tr:nth-child(odd) {
     background-color: lightblue;
+}
+table.second {
+    border-collapse: collapse;
+    border: 2px solid purple;
+    caption-side: bottom;
+}
+table.second th {
+    background-color: salmon;
 }
