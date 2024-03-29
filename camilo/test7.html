@@ -30,15 +30,35 @@
         ></model-viewer>
     </div>
     <script>
-        function dragstartHandler(ev) {
-          // Add the model's ID or other relevant data to the data transfer object
-          ev.dataTransfer.setData("text/plain", "trex_furcula");
-        }
-      
         const modelViewer = document.querySelector("#model-container model-viewer");
-        modelViewer.draggable = true;
-        modelViewer.addEventListener("dragstart", dragstartHandler);
+    
+        // Set initial camera position (optional)
+        modelViewer.cameraOrbit = "0deg 30deg 5m"; // Example: Orbit around the model
+    
+        // Event listener for handling dropped model
+        function handleDrop(event) {
+          event.preventDefault();
+          const data = event.dataTransfer.getData("text/plain");
+          if (data === "trex-furcula") {
+            // Handle the dropped model (e.g., position it in the scene)
+            // Example: Move the model closer to the camera
+            modelViewer.cameraOrbit = "0deg 30deg 2m"; // Adjust the distance
+            console.log("Dropped trex_furcula.gltf!");
+          }
+        }
+    
+        // Add event listeners for drag and drop
+        modelViewer.addEventListener("dragstart", (ev) => {
+          ev.dataTransfer.setData("text/plain", "trex-furcula");
+        });
+    
+        const dropContainer = document.querySelector("#drop-container");
+        dropContainer.addEventListener("dragover", (ev) => {
+          ev.preventDefault();
+        });
+        dropContainer.addEventListener("drop", handleDrop);
     </script>
+      
       
 
     <model-viewer
