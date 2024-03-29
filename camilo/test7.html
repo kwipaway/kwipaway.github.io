@@ -39,7 +39,7 @@
         function handleDrop(event) {
           event.preventDefault();
           const data = event.dataTransfer.getData("text/plain");
-          if (data === "trex-furcula") {
+          if (data === "trex_furcula") {
             // Handle the dropped model (e.g., position it in the scene)
             // Example: Move the model closer to the camera
             modelViewer.cameraOrbit = "0deg 30deg 2m"; // Adjust the distance
@@ -49,7 +49,7 @@
     
         // Add event listeners for drag and drop
         modelViewer.addEventListener("dragstart", (ev) => {
-          ev.dataTransfer.setData("text/plain", "trex-furcula");
+          ev.dataTransfer.setData("text/plain", "trex_furcula");
         });
     
         const dropContainer = document.querySelector("#drop-container");
