@@ -1,0 +1,22 @@
+/* styles.css */
+#puzzle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f0f0f0;
+  }
+  
+  model-viewer {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .draggable-piece {
+    background-color: #f9c74f;
+    padding: 10px;
+    margin: 10px;
+    cursor: grab;
+  }
+  

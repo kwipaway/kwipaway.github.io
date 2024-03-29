@@ -1,53 +1,27 @@
-// Create a scene
-const scene = new THREE.Scene();
+// script.js
+const draggablePieces = document.querySelectorAll(".draggable-piece");
+const centralBranch = document.querySelector("model-viewer");
 
-// Create a camera
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.z = 100;
+draggablePieces.forEach((piece) => {
+  piece.addEventListener("dragstart", (event) => {
+    event.dataTransfer.setData("text/plain", event.target.textContent);
+  });
+});
 
-// Create a renderer
-const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+centralBranch.addEventListener("dragover", (event) => {
+  event.preventDefault();
+});
 
-// Add lighting to the scene
-const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
-scene.add(ambientLight);
+centralBranch.addEventListener("drop", (event) => {
+  event.preventDefault();
+  const data = event.dataTransfer.getData("text/plain");
+  const correctAnswer = centralBranch.getAttribute("data-answer");
 
-const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
-directionalLight.position.set(0, 1, 1);
-scene.add(directionalLight);
-
-// Load the OBJ file
-const objLoader = new THREE.OBJLoader();
-objLoader.load(
-    'obj/furcula.obj',
-    (object) => {
-        // Position, scale, or manipulate the loaded object as needed
-        object.scale.set(0.5, 0.5, 0.5);
-        scene.add(object);
-    },
-    (xhr) => {
-        console.log((xhr.loaded / xhr.total * 100) + '% loaded');
-    },
-    (error) => {
-        console.error('An error happened', error);
-    }
-);
-
-// Function to handle window resizing
-function onWindowResize() {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-}
-
-window.addEventListener('resize', onWindowResize);
-
-// Animation function
-function animate() {
-    requestAnimationFrame(animate);
-    renderer.render(scene, camera);
-}
-
-animate();
+  if (data === correctAnswer) {
+    // Piece fits correctly
+    centralBranch.style.backgroundColor = "#aaffaa";
+  } else {
+    // Piece doesn't fit
+    console.log("Incorrect placement!");
+  }
+});
