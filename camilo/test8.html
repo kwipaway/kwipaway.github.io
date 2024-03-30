@@ -7,13 +7,19 @@
 </head>
 <body>
   <div id="puzzle-container">
-    <model-viewer src="../camilo/obj/phylogeny.gltf" draggable="false"></model-viewer>
+    <model-viewer src="../camilo/obj/phylogeny.gltf" 
+        draggable="false" camera-controls auto-rotate
+        style="width: 1600px; height: 300px;"></model-viewer>
     <div class="draggable-piece" data-answer="John">
-        <model-viewer src="../camilo/obj/chicken_furcula.gltf" draggable="true"></model-viewer>
+        <model-viewer src="../camilo/obj/chicken_furcula.gltf" 
+            draggable="true" camera-controls auto-rotate
+            style="width: 1600px; height: 300px;"></model-viewer>
     </div>
     <div class="draggable-piece" data-answer="2:30 PM">2:30 PM</div>
     <div class="draggable-piece" data-answer="John">
-        <model-viewer src="../camilo/obj/trex_furcula.gltf" draggable="true"></model-viewer>
+        <model-viewer src="../camilo/obj/trex_furcula.gltf" 
+            draggable="true" camera-controls auto-rotate
+            style="width: 1600px; height: 300px;"></model-viewer>
     </div>
     <!-- Add more draggable pieces as needed -->
   </div>
