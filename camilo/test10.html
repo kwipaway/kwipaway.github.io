@@ -54,7 +54,7 @@
         function handleDrop(event) {
             event.preventDefault();
             const modelName = event.dataTransfer.getData('text/plain'); // Get the dropped model name
-            document.write(modelName)
+            console.log(modelName)
             if (modelName === 'chicken_furcula.gltf') {
                 congratsMessage.style.display = 'block';
                 tryAgainMessage.style.display = 'none';
