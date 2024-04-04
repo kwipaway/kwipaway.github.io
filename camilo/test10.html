@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive 3D Object Drag and Drop</title>
+    <!-- Include the model-viewer library -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <!-- Create a model-viewer element -->
+    <model-viewer
+        src="../camilo/obj/chicken_furcula.gltf"
+        alt="3D Model"
+        camera-controls
+        auto-rotate
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        ar-scale="auto"
+        style="width: 100%; height: 400px;"
+    ></model-viewer>
+
+    <!-- Create two drop zones -->
+    <div id="drop-zone1" style="width: 50%; height: 200px; background-color: lightblue;">
+        Drop here to place the object correctly!
+    </div>
+    <div id="drop-zone2" style="width: 50%; height: 200px; background-color: lightgreen;">
+        Drop here to place the object correctly!
+    </div>
+
+    <!-- Display messages -->
+    <p id="congrats-message" style="display: none; font-weight: bold; color: green;">Congratulations! You placed the object correctly!</p>
+    <p id="try-again-message" style="display: none; font-weight: bold; color: red;">Try again! You placed the object in the wrong zone.</p>
+
+    <script>
+        const dropZone1 = document.getElementById('drop-zone1');
+        const dropZone2 = document.getElementById('drop-zone2');
+        const congratsMessage = document.getElementById('congrats-message');
+        const tryAgainMessage = document.getElementById('try-again-message');
+
+        // Add event listeners for drag and drop
+        dropZone1.addEventListener('dragover', handleDragOver);
+        dropZone2.addEventListener('dragover', handleDragOver);
+        dropZone1.addEventListener('drop', handleDrop);
+        dropZone2.addEventListener('drop', handleDrop);
+
+        function handleDragOver(event) {
+            event.preventDefault();
+        }
+
+        function handleDrop(event) {
+            event.preventDefault();
+            const modelName = event.dataTransfer.getData('text/plain'); // Get the dropped model name
+            if (modelName === 'chicken_furcula.gltf') {
+                congratsMessage.style.display = 'block';
+                tryAgainMessage.style.display = 'none';
+            } else {
+                congratsMessage.style.display = 'none';
+                tryAgainMessage.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
