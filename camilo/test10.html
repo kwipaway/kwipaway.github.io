@@ -52,7 +52,7 @@
         function handleDrop(event) {
             event.preventDefault();
             const modelName = event.dataTransfer.getData('text/plain'); // Get the dropped model name
-            event.target.appendChild(document.getElementById(modelName));
+            //event.target.appendChild(document.getElementById(modelName));
             console.log(modelName);
             console.log('Dropped!');
             alert('Dropped model: ' + modelName);
