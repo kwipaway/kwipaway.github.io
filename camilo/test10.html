@@ -54,12 +54,14 @@
             if (modelName === 'chicken_furcula') {
                 congratsMessage.style.display = 'block';
                 tryAgainMessage.style.display = 'none';
+                document.write('Bye1')
             } else {
                 congratsMessage.style.display = 'none';
                 tryAgainMessage.style.display = 'block';
+                document.write('Bye2')
             }
             console.log('Dropped!');
-            document.write('Bye')
+            
         }
 
         // Add event listeners for drag and drop
