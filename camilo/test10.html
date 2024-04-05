@@ -49,6 +49,7 @@
             event.preventDefault();
             const modelName = event.dataTransfer.getData('text/plain'); // Get the dropped model name
             console.log(modelName);
+            console.log('Dropped!');
             alert(modelName);
             if (modelName === 'chicken_furcula') {
                 congratsMessage.style.display = 'block';
