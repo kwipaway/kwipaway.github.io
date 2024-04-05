@@ -41,12 +41,6 @@
         const congratsMessage = document.getElementById('congrats-message');
         const tryAgainMessage = document.getElementById('try-again-message');
 
-        // Add event listeners for drag and drop
-        dropZone1.addEventListener('dragover', handleDragOver);
-        dropZone2.addEventListener('dragover', handleDragOver);
-        dropZone1.addEventListener('drop', handleDrop);
-        dropZone2.addEventListener('drop', handleDrop);
-
         function handleDragOver(event) {
             event.preventDefault();
         }
@@ -64,6 +58,12 @@
                 tryAgainMessage.style.display = 'block';
             }
         }
+
+        // Add event listeners for drag and drop
+        dropZone1.addEventListener('dragover', handleDragOver);
+        dropZone2.addEventListener('dragover', handleDragOver);
+        dropZone1.addEventListener('drop', handleDrop);
+        dropZone2.addEventListener('drop', handleDrop);
     </script>
     <!--https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/getData-->
 </body>
