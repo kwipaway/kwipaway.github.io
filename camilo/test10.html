@@ -22,7 +22,7 @@
     ></model-viewer>
 
     <!-- Create two drop zones -->
-    <div id="drop-zone1" style="width: 50%; height: 500px; background-color: lightblue; float: left;">
+    <div id="drop-zone1" style="width: 50%; height: 500px; background-color: lightblue;">
         Drop here to place the object correctly!
     </div>
     <br><br>
@@ -54,11 +54,11 @@
             if (modelName === 'chicken_furcula') {
                 congratsMessage.style.display = 'block';
                 tryAgainMessage.style.display = 'none';
-                alert('Dropped modelT: ' + modelName);
+                alert('Dropped model T: ' + modelName);
             } else {
                 congratsMessage.style.display = 'none';
                 tryAgainMessage.style.display = 'block';
-                alert('Dropped modelF: ' + modelName);
+                alert('Dropped model F: ' + modelName);
             }
             console.log('Dropped!');
             
