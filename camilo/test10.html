@@ -50,15 +50,15 @@
             const modelName = event.dataTransfer.getData('text/plain'); // Get the dropped model name
             console.log(modelName);
             console.log('Dropped!');
-            alert(modelName);
+            alert('Dropped model: ' + modelName);
             if (modelName === 'chicken_furcula') {
                 congratsMessage.style.display = 'block';
                 tryAgainMessage.style.display = 'none';
-                document.write('Bye1')
+                alert('Dropped model: ' + modelName);
             } else {
                 congratsMessage.style.display = 'none';
                 tryAgainMessage.style.display = 'block';
-                document.write(modelName + 'ok');
+                alert('Dropped model: ' + modelName);
             }
             console.log('Dropped!');
             
