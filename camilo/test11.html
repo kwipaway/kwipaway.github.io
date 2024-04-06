@@ -22,14 +22,9 @@
     ></model-viewer>
     </div>
 
-    <div id="drop-zone1" ondrop="handleDrop(event)" ondragover="handleDragOver(event)"
-        style="width: 20%; height: 100px; background-color: lightblue;">
-        Drop here to place the object correctly!
-    </div>
-    <br><br>
-    <div id="drop-zone2" style="width: 20%; height: 100px; background-color: lightgreen;">
-        Drop here to place the object correctly!
-    </div>
+    <div id="drop-zone1" style="width: 20%; height: 100px; background-color: lightblue;">Drop here!</div>
+    <br>
+    <div id="drop-zone2" style="width: 20%; height: 100px; background-color: lightgreen;">Drop here!</div>
 
     <!-- Display messages -->    
     <p id="try-again-message" style="display: none; font-weight: bold; color: red;">Try again! You placed the object in the wrong zone.</p>
@@ -62,15 +57,16 @@
                 if (droppedDivId === 'chicken_furcula') {
                     congratsMessage.style.display = 'block';
                     tryAgainMessage.style.display = 'none';
-                    const droppedDivClone = droppedDiv.cloneNode(true); // Clone the draggable object
-                    droppedDivClone.id = 'cloned_chicken_furcula'; // Update ID to avoid duplication
-                    dropZone.appendChild(droppedDivClone); // Append the cloned object to the drop zone
+                    dropZone.appendChild(droppedDiv); // Append the dropped object to the drop zone
 
                     // Resize the dropped object to fit the drop zone
                     const dropZoneWidth = dropZone.offsetWidth;
                     const dropZoneHeight = dropZone.offsetHeight;
                     const scaleFactor = Math.min(dropZoneWidth / droppedDiv.offsetWidth, dropZoneHeight / droppedDiv.offsetHeight);
-                    droppedDivClone.style.transform = `scale(${scaleFactor})`;
+                    droppedDiv.style.transform = `scale(${scaleFactor})`;
+
+                    // Ensure the object doesn't move outside the drop zone
+                    droppedDiv.style.position = 'static';
 
                     alert('Dropped model T: ' + droppedDivId);
                 } else {
