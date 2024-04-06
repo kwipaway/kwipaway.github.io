@@ -62,16 +62,15 @@
                 if (droppedDivId === 'chicken_furcula') {
                     congratsMessage.style.display = 'block';
                     tryAgainMessage.style.display = 'none';
-                    dropZone.appendChild(droppedDiv); // Append the dropped object to the drop zone
+                    const droppedDivClone = droppedDiv.cloneNode(true); // Clone the draggable object
+                    droppedDivClone.id = 'cloned_chicken_furcula'; // Update ID to avoid duplication
+                    dropZone.appendChild(droppedDivClone); // Append the cloned object to the drop zone
 
                     // Resize the dropped object to fit the drop zone
                     const dropZoneWidth = dropZone.offsetWidth;
                     const dropZoneHeight = dropZone.offsetHeight;
                     const scaleFactor = Math.min(dropZoneWidth / droppedDiv.offsetWidth, dropZoneHeight / droppedDiv.offsetHeight);
-                    droppedDiv.style.transform = `scale(${scaleFactor})`;
-
-                    // Ensure the object doesn't move outside the drop zone
-                    droppedDiv.style.position = 'static';
+                    droppedDivClone.style.transform = `scale(${scaleFactor})`;
 
                     alert('Dropped model T: ' + droppedDivId);
                 } else {
