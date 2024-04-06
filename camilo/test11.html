@@ -55,13 +55,15 @@
             event.preventDefault();
 
             const droppedDivId = event.dataTransfer.getData('text/plain');
+            const droppedDiv = document.getElementById(droppedDivId);
+            const dropZone = event.target;
 
-            alert('Dropped model: ' + droppedDivId);
-
-            if (event.target.id === 'drop-zone1') {
+            if (dropZone.id === 'drop-zone1') {
                 if (droppedDivId === 'chicken_furcula') {
                     congratsMessage.style.display = 'block';
                     tryAgainMessage.style.display = 'none';
+                    dropZone.appendChild(droppedDiv); // Append the dropped object to the drop zone
+                    droppedDiv.style.position = 'static'; // Ensure the object doesn't move outside the drop zone
                     alert('Dropped model T: ' + droppedDivId);
                 } else {
                     congratsMessage.style.display = 'none';
@@ -71,7 +73,7 @@
             } else {
                 congratsMessage.style.display = 'none';
                 tryAgainMessage.style.display = 'block';
-                alert('Dropped in the wrong zone: ' + event.target.id);
+                alert('Dropped in the wrong zone: ' + dropZone.id);
             }
     }
 
