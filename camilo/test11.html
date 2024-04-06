@@ -42,6 +42,11 @@
         const congratsMessage = document.getElementById('congrats-message');
         const tryAgainMessage = document.getElementById('try-again-message');
 
+        function handleDragStart(event) {
+            event.dataTransfer.setData('text/plain', event.target.id);
+        }
+
+
         function handleDragOver(event) {
             event.preventDefault();
         }
@@ -50,34 +55,19 @@
             event.preventDefault();
 
             const droppedDivId = event.dataTransfer.getData('text/plain');
-            //const droppedDiv = document.getElementById(droppedDivId);
 
-            if (droppedDivId === 'chicken_furcula')
-            {
+            if (droppedDivId === 'chicken_furcula2') {
                 congratsMessage.style.display = 'block';
                 tryAgainMessage.style.display = 'none';
                 alert('Dropped model T: ' + droppedDivId);
-            }
-            //alert('Dropped model T: ' + droppedDivId);
-
-            //const modelName = event.dataTransfer.getData('text/plain'); // Get the dropped model name
-            //event.target.appendChild(document.getElementById(modelName));
-            /*console.log(modelName);
-            console.log('Dropped!');
-            alert('Dropped model: ' + modelName);
-            if (modelName === 'chicken_furcula') {
-                congratsMessage.style.display = 'block';
-                tryAgainMessage.style.display = 'none';
-                alert('Dropped model T: ' + modelName);
             } else {
                 congratsMessage.style.display = 'none';
                 tryAgainMessage.style.display = 'block';
-                alert('Dropped model F: ' + modelName);
+                alert('Dropped model F: ' + droppedDivId);
             }
-            console.log('Dropped!');*/
-            
         }
 
+            
         // Add event listeners for drag and drop
         dropZone1.addEventListener('dragover', handleDragOver);
         dropZone2.addEventListener('dragover', handleDragOver);
