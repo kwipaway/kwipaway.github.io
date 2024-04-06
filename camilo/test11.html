@@ -52,7 +52,7 @@
             const droppedDivId = event.dataTransfer.getData('text/plain');
             const droppedDiv = document.getElementById(droppedDivId);
 
-            if (event.target === droppedDiv)
+            if (droppedDiv === 'chicken_furcula')
             {
                 congratsMessage.style.display = 'block';
                 tryAgainMessage.style.display = 'none';
