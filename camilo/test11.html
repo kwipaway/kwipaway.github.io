@@ -58,16 +58,22 @@
 
             alert('Dropped model: ' + droppedDivId);
 
-            if (droppedDivId === 'chicken_furcula') {
-                congratsMessage.style.display = 'block';
-                tryAgainMessage.style.display = 'none';
-                alert('Dropped model T: ' + droppedDivId);
+            if (event.target.id === 'drop-zone1') {
+                if (droppedDivId === 'chicken_furcula') {
+                    congratsMessage.style.display = 'block';
+                    tryAgainMessage.style.display = 'none';
+                    alert('Dropped model T: ' + droppedDivId);
+                } else {
+                    congratsMessage.style.display = 'none';
+                    tryAgainMessage.style.display = 'block';
+                    alert('Dropped model F: ' + droppedDivId);
+                }
             } else {
                 congratsMessage.style.display = 'none';
                 tryAgainMessage.style.display = 'block';
-                alert('Dropped model F: ' + droppedDivId);
+                alert('Dropped in the wrong zone: ' + event.target.id);
             }
-        }
+    }
 
             
         // Add event listeners for drag and drop
