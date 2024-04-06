@@ -18,7 +18,7 @@
         ar-scale="auto"
         style="width: 100%; height: 400px;"
         draggable="true" 
-        id="chicken_furcula"
+        id="chicken_furcula2"
     ></model-viewer>
     </div>
 
@@ -50,14 +50,15 @@
             event.preventDefault();
 
             const droppedDivId = event.dataTransfer.getData('text/plain');
-            const droppedDiv = document.getElementById(droppedDivId);
+            //const droppedDiv = document.getElementById(droppedDivId);
 
-            if (droppedDiv === 'chicken_furcula')
+            if (droppedDivId === 'chicken_furcula')
             {
                 congratsMessage.style.display = 'block';
                 tryAgainMessage.style.display = 'none';
-                alert('Dropped model T: ' + droppedDiv);
+                alert('Dropped model T: ' + droppedDivId);
             }
+            alert('Dropped model T: ' + droppedDivId);
 
             //const modelName = event.dataTransfer.getData('text/plain'); // Get the dropped model name
             //event.target.appendChild(document.getElementById(modelName));
