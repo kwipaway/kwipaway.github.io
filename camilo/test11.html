@@ -48,11 +48,20 @@
 
         function handleDrop(event) {
             event.preventDefault();
-            const modelName = event.dataTransfer.getElementById('chicken_furcula'); // Get the dropped model name
+
+            const droppedDivId = event.dataTransfer.getData('text/plain');
+            const droppedDiv = document.getElementById(droppedDivId);
+
+            if (event.target === droppedDiv)
+            {
+                congratsMessage.style.display = 'block';
+                tryAgainMessage.style.display = 'none';
+                alert('Dropped model T: ' + droppedDiv);
+            }
 
             //const modelName = event.dataTransfer.getData('text/plain'); // Get the dropped model name
             //event.target.appendChild(document.getElementById(modelName));
-            console.log(modelName);
+            /*console.log(modelName);
             console.log('Dropped!');
             alert('Dropped model: ' + modelName);
             if (modelName === 'chicken_furcula') {
@@ -64,7 +73,7 @@
                 tryAgainMessage.style.display = 'block';
                 alert('Dropped model F: ' + modelName);
             }
-            console.log('Dropped!');
+            console.log('Dropped!');*/
             
         }
 
