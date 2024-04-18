@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furcula Details</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 </head>
 <body>
     <header>
@@ -18,11 +19,78 @@
         </nav>
     </header>
     <main>
-        <!-- Add your furcula details here -->
-        <p>Discover the significance of the furcula in birds and dinosaurs...</p>
+        <h1>The Fascinating Furcula: A Link Between Birds and Dinosaurs</h1>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>The <strong>furcula</strong>, commonly known as the <strong>wishbone</strong>, is a forked bone found in most birds and some extinct dinosaurs. Let's explore its fascinating features:</p>
+
+        <model-viewer
+            src="../camilo/obj/trex_furcula.gltf" 
+            alt="trex_furcula.gltf"
+            camera-controls
+            auto-rotate
+            draggable="true"
+            style="width: 1600px; height: 300px; text-align: left;"
+        ></model-viewer>
+
+        <h2>Structure and Function</h2>
+        <ol>
+            <li>
+                <h3>Structure and Function</h3>
+                <ul>
+                    <li>The furcula is formed by the fusion of the two clavicles.</li>
+                    <li>In birds, its primary function is to <strong>strengthen the thoracic skeleton</strong> to withstand the rigors of flight.</li>
+                    <li>It acts as a <strong>strut between a bird's shoulders</strong>, connecting to each of the bird's scapulae (shoulder blades).</li>
+                    <li>Together with the coracoid and scapula, it forms a unique structure called the <strong>triosseal canal</strong>, which houses a strong tendon connecting the supracoracoideus muscles to the humerus.</li>
+                    <li>During flight, the furcula plays a crucial role in lifting the wings during the recovery stroke.</li>
+                    <li>As the thorax compresses during downstroke, the furcula's upper ends spread apart and then contract, acting like a spring in the pectoral girdle.</li>
+                    <li>Some bird species lack a furcula, while others have vestigial or oversized versions¹².</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Dinosaur Connection</h3>
+                <ul>
+                    <li>Several groups of <strong>theropod dinosaurs</strong> have also been found with furculae.</li>
+                    <li>These include dromaeosaurids, oviraptorids, tyrannosaurids, troodontids, coelophysids, and allosauroids.</li>
+                    <li>The furcula's presence in dinosaurs sheds light on their evolutionary history and adaptations³.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Folklore</h3>
+                <ul>
+                    <li>The wishbone has inspired superstitions and divination practices.</li>
+                    <li>Traditionally, people would break a goose's wishbone, believing that the longer piece would grant a wish.</li>
+                    <li>This tradition dates back to at least the Late Medieval Period¹.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <p>So next time you enjoy a chicken dinner, remember that the wishbone you might pull apart has ancient ties to both birds and dinosaurs!</p>
+
+        <model-viewer
+            src="../camilo/obj/chicken_furcula.gltf" 
+            alt="trex_furcula.gltf"
+            camera-controls
+            auto-rotate
+            draggable="true"
+            style="height: 300px;"
+        ></model-viewer>
+
+    </section>
+
+    <footer>
+        <p>Source: Conversation with Bing, 4/18/2024</p>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Furcula">(1) Furcula - Wikipedia</a></li>
+            <li><a href="https://simple.wikipedia.org/wiki/Furcula">(2) Furcula - Simple English Wikipedia, the free encyclopedia</a></li>
+            <li><a href="https://www.bionity.com/en/encyclopedia/Furcula.html">(3) Furcula - bionity.com</a></li>
+        </ul>
+    </footer>
     </main>
     <footer>
         <p>&copy; 2024 Paleontologists United</p>
     </footer>
 </body>
 </html>
+
