@@ -11,6 +11,8 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+    background-image: url("../images/orangebox.png");
+    
 }
 a:focus, a:hover {
     font-style: italic;
@@ -36,8 +38,11 @@ main {
     clear: left;
 }
 main h3 {
-    margin-top: 3em;
     font-size: 105%;
+    margin: 3em 2em 1.5em;
+    border: 5px double blue;
+
+    padding: 1em;
 }
 #list {
     line-height: 1.5em;
