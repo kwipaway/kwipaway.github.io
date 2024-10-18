@@ -64,7 +64,7 @@ body {
 	border: 1px solid black;
 	border-radius: 25px;
 	box-shadow: 5px 5px 0 0;
-    background-image: url("../temp/images/orangebox.png");
+    background-image: url("../images/orangebox.png");
 	background-position: right;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
