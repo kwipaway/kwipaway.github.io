@@ -103,6 +103,9 @@ aside ol {
 aside ul {
     list-style-type:square;
 }
+aside ol.sub {
+    list-style-type:lower-alpha;
+}
 footer {
 	clear: both;
 	border-top: 3px solid blue;
