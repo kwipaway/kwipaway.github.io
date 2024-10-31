@@ -1,0 +1,7 @@
+table.first {
+    border-collapse: separate;
+    border: 2px solid black;
+}
+table.first th, table.first td {
+    border: 2px solid blue;
+}
