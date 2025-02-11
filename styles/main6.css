@@ -12,6 +12,10 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+    background-image: url("../images/orangebox.png");
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 a:hover, a:focus {
     font-style: italic;
@@ -40,7 +44,7 @@ main h3 {
     margin-top: 3em;
     font-size: 105%;
 }
-#id {
+#list {
     line-height: 105%;
 }
 footer p.copyright {
