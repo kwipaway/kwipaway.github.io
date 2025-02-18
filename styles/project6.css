@@ -45,6 +45,9 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
+article h3 {
+    column-span: all;
+}
 
 main {
     clear: left;
