@@ -59,36 +59,18 @@ article p::first-letter {
     font-style: italic;
     color: lightgreen;
 }
-main {
-    clear: left;
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
 }
-main h3 {
-    margin: 3em 2em 1.5em;
-    font-size: 105%;
-    border: 5px double blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-}
-main nav {
-    margin: 1.5em 2em 1.5em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: .5em;
-}
-#list {
-    line-height: 105%;
-}
-main div {
-    margin: 1.5em 2em 0 2em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
 }
 footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
+
 
