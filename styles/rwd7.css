@@ -152,3 +152,19 @@ footer {
         font-size: .6em;
     }
 }
+/* give me css for media queries for max-width 400px with complete code to scale down text and images */
+@media only screen and (max-width: 400px) {
+    article h2{
+        font-size: 1em;
+    }
+    article p {
+        font-size: 0.7em;
+    }
+    article img {
+        width: 100%;
+        max-width: 100%;
+    }
+    footer {
+        font-size: .5em;
+    }
+}
