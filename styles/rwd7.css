@@ -168,3 +168,34 @@ footer {
         font-size: .5em;
     }
 }
+/* give me css for media queries for min-width 1200px with complete code to scale up text and images */
+@media only screen and (min-width: 1200px) {
+    article h2{
+        font-size: 1.5em;
+    }
+    article p {
+        font-size: 1.2em;
+    }
+    article img {
+        width: 100%;
+        max-width: 1000px;
+    }
+    footer {
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    article h2{
+        font-size: 1.75em;
+    }
+    article p {
+        font-size: 1.4em;
+    }
+    article img {
+        width: 100%;
+        max-width: 1200px;
+    }
+    footer {
+        font-size: 1.2em;
+    }
+}
