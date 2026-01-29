@@ -7,3 +7,8 @@ a:hover, a:focus {
     font-style: italic;
     color: orangered;
 }
+header h1 {
+    font-size: 175%;
+    color: maroon;
+    text-indent: 30px;
+}
