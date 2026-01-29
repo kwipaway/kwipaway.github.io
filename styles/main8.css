@@ -3,3 +3,7 @@ body {
     font-size: 100%;
     margin-left: 10px;
 }
+a:hover, a:focus {
+    font-style: italic;
+    color: orangered;
+}
