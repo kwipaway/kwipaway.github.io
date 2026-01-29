@@ -12,3 +12,8 @@ header h1 {
     color: maroon;
     text-indent: 30px;
 }
+header h2 {
+    font-size: 130%;
+    color: #800000;
+    text-indent: 30px;
+}
