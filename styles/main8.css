@@ -20,3 +20,6 @@ header h2 {
 header img {
     float: left;
 }
+main {
+    clear: left;
+}
