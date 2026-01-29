@@ -17,3 +17,6 @@ header h2 {
     color: #800000;
     text-indent: 30px;
 }
+header img {
+    float: left;
+}
