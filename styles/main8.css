@@ -11,6 +11,8 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+    background: url("/images/orangebox.png") right repeat-y;
+    background-attachment: fixed;
 }
 a:hover, a:focus {
     font-style: italic;
