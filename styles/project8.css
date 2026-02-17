@@ -40,3 +40,12 @@ header img {
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
+article {
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
