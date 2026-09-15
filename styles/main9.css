@@ -13,7 +13,6 @@ body {
     background: url("/images/orangebox.png") right repeat-y;
     background-attachment: fixed;
     background-color: white;
-
 }
 a:focus, a:hover {
     font-style: italic;
