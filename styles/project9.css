@@ -59,8 +59,6 @@ article p::first-letter {
     font-style: italic;
     color: lightgreen;
 }
-span.green { color:purple !important; } 
-
 aside {
     width: 20%;
     float: right;
