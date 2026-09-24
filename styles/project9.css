@@ -59,7 +59,7 @@ article p::first-letter {
     font-style: italic;
     color: lightgreen;
 }
-.green { color:purple; }
+span.green { color:purple !important; } 
 
 aside {
     width: 20%;
