@@ -86,6 +86,7 @@ article h1, h2 {
 }
 article p::first-letter {
     font: italic bold 3em "monotype corsiva";
+    color: purple;
 }
 article img {
     float: left;
