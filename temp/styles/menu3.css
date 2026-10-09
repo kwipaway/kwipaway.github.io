@@ -39,7 +39,7 @@
     width: 175px;
     padding: 1em 0;     
     text-decoration: none;
-    background-color: blue;
+    background-color: darkgreen;
     color: white;
     font-weight: bold;
     border-right: 2px solid white; }
@@ -48,7 +48,7 @@
 
 nav{
     padding-bottom: 4em;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid darkgreen;
 }
 
 html {
@@ -74,7 +74,7 @@ article {
     float: left;
     width: 75%;
     column-count: 3;
-    column-rule: 5px dashed blue;    
+    column-rule: 5px dashed darkgreen;    
     column-gap: 2em;
 	margin-left: 2em;
 }
@@ -82,10 +82,10 @@ article h1 {
     column-span: all;
 }
 article h1, h2 {
-    color: blue;
+    color: darkgreen;
 }
 article p::first-letter {
-    font: 2em italic bold;
+    font: 3em italic bold;
 }
 article img {
     float: left;
@@ -112,7 +112,7 @@ aside ol.sub {
 }
 footer {
 	clear: both;
-	border-top: 3px solid blue;
+	border-top: 3px solid darkgreen;
 }
 footer p.copyright {
 	text-align: center;
